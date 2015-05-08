@@ -1,0 +1,82 @@
+
+*{margin:0;padding:0;list-style-type:none;}
+a,img{border:0;text-decoration:none;}
+.fix{*zoom:1;}
+.fix:after{display:block;content:"clear";height:0;clear:both;overflow:hidden;visibility:hidden;}
+body{font:12px/180%  Arial, Helvetica, sans-serif;}
+
+#header{
+	height:630px;
+}
+
+/*banner*/
+.none{display:none;}
+.banner{min-width:980px;height:570px;position:relative;margin:0 auto;overflow:hidden;z-index:1;}
+.banner_show{width:100%;text-align:center;height:570px;overflow:hidden;position:relative;}
+.bannger_inbox{position:absolute;left:50%;top:0;}
+
+
+/*翻页*/
+.banner_pre_next{position:relative;z-index:105;top:520px;width:980px;left:50%;height:37px;margin-left:-500px;*left:240px;}
+.banner_pre_next a{width:37px;height:37px;background:url(../images/btn.png) no-repeat;text-indent:-999em;}
+.banner_pre_next .banner_btn_left{position:absolute;left:-37px;background-position:0px 0px;}
+.banner_pre_next .banner_btn_right{position:absolute;right:-37px;background-position:-37px 0px;}
+
+
+/*圆点*/
+.yq_banner_list{width:200px;height:25px;position:absolute;top:530px;text-align:right;z-index:100;left:120px;padding-right:12px; margin-left:700px;}
+.yq_banner_list a{display:inline-block;width:19px;height:19px;background:url(../images/abg.png) no-repeat right;margin-right:10px;}
+.yq_banner_list a.hover{background:url(../images/abg.png) no-repeat left;}
+
+/*文字*/
+.noworder{
+	width:1280px;
+	height:520px;
+	margin:0 auto;
+}
+.banner_mag{
+	width:345px;
+	height:520px;
+	position:absolute;
+	overflow:hidden;
+	top:0px;
+	text-align:left;
+	z-index:99;
+	margin-left:800px;
+}
+.banner_magbox{
+	height:520px;
+	background:#fef4ea;
+	text-align:left;
+	padding:80px 30px 35px;
+}
+.banner_magbox input{
+	width:270px;
+	height:30px;
+	border-radius:5px; 
+	border:1px #E2E2E2 solid;
+	padding-left:10px;
+	color:#666;
+	margin-bottom:30px;
+}
+.banner_magbox li{
+	margin-top:10px;
+	margin-left:80px;
+}
+.banner_magbox li a{
+	padding:10px 25px;
+	background:#fe0000;
+	border-radius:5px;
+	color:#fff;
+	font-weight:bold;
+}
+.banner_magbox p{
+	margin-top:40px;
+}
+.banner_magbox p a{
+	color:#fe0000;
+	padding-left:10px;
+}
+.banner_magbox p a:hover{
+	text-decoration:underline;
+}

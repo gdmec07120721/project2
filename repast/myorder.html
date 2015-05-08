@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="css/style.css" rel="stylesheet" >
+<link href="css/user.css" rel="stylesheet" >
+</head>
+
+<body>
+<!-----------------------------header--------------------------------------->
+<div id="header">
+  <nav>
+	<div id="navigation_bar">
+       <div id="nav">
+         <div id="nav_left">
+           <span><a href="index.html"><img src="images/logo.png" /></a></span>
+         </div>
+         <div class="login_register">
+         	 <p class="user" ><a href="account.html">L_xiaobing</a></p>
+             <div id="user_box">
+             	<ul>
+             		<li><a href="account.html">My Account</a></li>
+                    <li><a href="myaddress.html">My Address</a></li>
+                    <li><a href="myorder.html">My Order</a></li>
+                    <li style=" border-bottom:0;"><a href="login.html">Logout</a></li>
+                </ul>
+             </div>
+         </div>
+
+         <div id="nav_right">
+           <ul>        
+             <li class="c1"><a href="myorder.html"  id="menv1">CHECK MY ORDER</a></li>
+             <li class="c2"><a href="login.html"  id="menv2">RE LOGIN</a></li>
+             <li class="c3"><a href="single_order.html"  id="menv3">MENU</a></li>
+             <li class="c4"><a href="index.html"  id="menv4">HOME</a></li>
+           </ul>
+         </div>
+       </div>    
+     </div>
+   </nav>  
+</div>
+ 
+<!-----------------------------content--------------------------------------->
+<div id="myorder">
+	<h3>MY ORDER </h3>
+  	<div class="order_box">
+    	<ul class="order_item">
+	    	<li class="item_header">
+            	<span class="item1">Order Number</span>
+                <span class="item2">Estimated Delivery Time/Date</span>
+                <span class="item3">Order Received</span>
+                <span class="item4">Condition</span>
+            </li>
+	    	<li class="item_order">
+            	<span class="item1">Order Number</span>
+                <span class="item2">Estimated Delivery Time/Date</span>
+                <span class="item3">Order Received</span>
+                <span class="item4">Condition</span>
+            </li>
+        </ul>
+    </div>
+    <div><a href="single_order.html"><input type="submit" class="order2" value="New Order" /></a></div>
+   
+</div>
+<div class="clear"></div>
+<input name="menvitem" type="hidden" id="menvitem" value="1" />
+<!-----------------------------footer---------------------------------------->
+<div id="footer">
+	<div class="footer_nav">
+    	<li class="logo"><a href="index.html"><img src="images/logo.png" /></a></li>
+        <li class="phone">4408-123-456</li>
+        	<li class="menu"><a href="single_new.html">MENU</a></li>
+            <li class="no"><a href="login.html">NOW ORDER</a></li>
+            <li><a href="#">CONTACT US</a></li>
+        <li class="reserved"><span> ©</span>2014 LemonChili. All Rights Reserved.</li>
+    </div>
+</div>
+
+</body>
+<script type="text/javascript" src="js/jquery.min.js"></script> 
+<script type="text/javascript" src="js/jquery-code.js"></script> 
+</html>

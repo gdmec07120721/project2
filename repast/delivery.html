@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="css/style.css" rel="stylesheet" >
+<link href="css/user.css" rel="stylesheet" >
+</head>
+
+<body>
+<!-----------------------------header--------------------------------------->
+<div id="header">
+  <nav>
+	<div id="navigation_bar">
+       <div id="nav">
+         <div id="nav_left">
+           <span><a href="index.html"><img src="images/logo.png" /></a></span>
+         </div>
+         <div class="login_register">
+         	 <p class="user" ><a href="account.html">L_xiaobing</a></p>
+             <div id="user_box">
+             	<ul>
+             		<li><a href="account.html">My Account</a></li>
+                    <li><a href="myaddress.html">My Address</a></li>
+                    <li><a href="myorder.html">My Order</a></li>
+                    <li style=" border-bottom:0;"><a href="login.html">Logout</a></li>
+                </ul>
+             </div>
+         </div>
+
+         <div id="nav_right">
+           <ul>        
+             <li class="c1"><a href="myorder.html"  id="menv1">CHECK MY ORDER</a></li>
+             <li class="c2"><a href="login.html"  id="menv2">RE LOGIN</a></li>
+             <li class="c3"><a href="single_order.html"  id="menv3">MENU</a></li>
+             <li class="c4"><a href="index.html"  id="menv4">HOME</a></li>
+           </ul>
+         </div>
+       </div>    
+     </div>
+   </nav>  
+</div>
+ 
+<!-----------------------------content--------------------------------------->
+<div id="delivery">
+	<h3 style="text-align:center; margin-bottom:30px;">Delivery Information</h3>
+    <div class="delivery">
+    	<ul>
+        	<li><span class="right">Name：</span><span>lixiaobing</span></li>
+            <li><span class="right">Phone：</span><span>13535561396</span></li>
+            <li><span class="right">Address：</span><span>广州市越秀区东风东路东峻广场1座2504</span></li>
+        	<li><span class="right">Any other requirement：</span><span><input type="text" name="any" class="any" /></span></li>
+            <li>
+                <span class="right">Delivery method：</span>
+                <span>
+                     <select name="choose" class="choose_delivery">
+                        <option value="1" selected="selected">Delivery</option>
+                        <option value="2">Take Away</option>
+                        <option value="2">File size</option>
+                    </select>
+                </span>
+            </li>
+            <li>
+                <span class="right">payment method：</span>
+                <span>
+                     <select name="choose" class="choose_payment">
+                        <option value="1" selected="selected">Cash on Delivery</option>
+                        <option value="2">Online Payment</option>
+                        <option value="2">File size</option>
+                    </select>
+                </span>
+            </li>
+            <li><span class="right">payment method：</span><span>  Your order will be delivered in 50 minutes upon confirmation of order.</span></li>
+            <li><span class="right">Total Amount：</span><span class="TotalAmount">$27.0</span></li>
+        </ul>
+    <div class="clear"></div>
+    </div>
+    <div class="recheck_submit">
+    	<input type="submit" class="back" value="Back to menu" />
+        <input type="submit" class="next" value="Submit Order" />
+    </div>
+   
+</div>
+<div class="clear"></div>
+<input name="menvitem" type="hidden" id="menvitem" value="1" />
+<!-----------------------------footer---------------------------------------->
+<div id="footer">
+	<div class="footer_nav">
+    	<li class="logo"><a href="index.html"><img src="images/logo.png" /></a></li>
+        <li class="phone">4408-123-456</li>
+        	<li class="menu"><a href="single_new.html">MENU</a></li>
+            <li class="no"><a href="login.html">NOW ORDER</a></li>
+            <li><a href="#">CONTACT US</a></li>
+        <li class="reserved"><span> ©</span>2014 LemonChili. All Rights Reserved.</li>
+    </div>
+</div>
+
+</body>
+<script type="text/javascript" src="js/jquery.min.js"></script> 
+<script type="text/javascript" src="js/jquery-code.js"></script> 
+</html>
